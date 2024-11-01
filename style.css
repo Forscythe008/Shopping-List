@@ -2,14 +2,15 @@ body {
   background-color: rgb(166, 244, 250);
 }
 
-div {
-  text-align: center;
-}
-
 h1 {
   color: navy;
   text-align: center;
   font-size: 40px;
+  background-color: floralwhite;
+  border: 20px solidblue;
+  width: 850px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 h2 {
@@ -21,15 +22,29 @@ h2 {
   border: 6px solid blue;
   width: 720px;
   font-family: Verdana;
+  background-color: beige;
 }
 
 h3 {
-  color: blueviolet;
-  font-family: "Impact";
-  font-size: 20px;
+  background-color: antiquewhite;
+  width: 850px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }
 
 h4 {
+  display: block;
+  color: blueviolet;
+  font-family: "Impact";
+  font-size: 20px;
+  background-color: aqua;
+  margin: center;
+  width: 200px;
+}
+
+h5 {
+  background-color: azure;
   color: darkred;
   font-family: "Trebuchet MS";
 }
